@@ -1,0 +1,190 @@
+body{
+	background-color:#000033;
+	}
+	
+div{
+	text-align:center;
+	border-radius: .3em;
+	}
+
+p{ 
+	font-size:1.5em;
+	color:yellow;
+	text-align:center;
+	}
+
+h1{color: white;}
+
+h2{color: white}
+
+h3{
+	color: white;
+	font-size: 1.5em;
+	}
+
+#All{
+	height:60em;
+	width:60em;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin: -30em 0 0 -30em;
+/*	border:2px solid white;*/
+	}
+
+#Game{
+	width:30em;
+	height:45em;
+	background-color:#747F8C;
+	border:.3em solid white;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin: -22.5em 0 0 -15em;
+	}	
+
+#Score{
+	height: 30em;
+	width: 9em;
+	position: absolute;
+	top:12.5%;
+	left:4%;
+	margin: .2em 0 0 .2em;
+	/*	border:.2em solid #747F8C;*/
+	}
+
+#Next{
+	height:16em;
+	width:9em;
+	border:.2em solid gray;
+	position:absolute;
+	top:12.5%;
+	right:4%;
+	}
+
+#Control{
+	height:5em;
+	width:30em;
+	position:absolute;
+	bottom: 1%;
+	left:50%;
+	margin: 0 0 0 -14.8em;
+/*	border:.2em solid gray;*/
+	}
+
+
+td{
+/*	border:1px solid white;*/
+	width:7.5em;
+	padding: .245em;
+}
+
+#Green{
+	width:2.75em;
+	height:2.75em;
+	background-color:green;
+	border:.15em solid #006600;
+	float:left;
+	}
+	
+#Red{
+	width:2.75em;
+	height:2.75em;
+	background-color:#990033;
+	border:.15em solid #660033;
+	float:left;
+	}
+
+#Yellow{
+	width:2.75em;
+	height:2.75em;
+	background-color:#DBD51A;
+	border:.15em solid #969215;
+	float:left;
+	}
+
+#Cyan{
+	width:2.75em;
+	height:2.75em;
+	background-color:#33CCCC;
+	border:.15em solid #336666;
+	float:left;
+	}
+
+#Orange{
+	width:2.75em;
+	height:2.75em;
+	background-color:#996600;
+	border:.15em solid #945400;
+	float:left;
+	}
+
+#Blue{
+	width:2.75em;
+	height:2.75em;
+	background-color:#336699;
+	border:.15em solid #170D7A;
+	float:left;
+	}
+
+#Purple{
+	width:2.75em;
+	height:2.75em;
+	background-color:#663399;
+	border:.15em solid #390A6B;
+	float:left;
+	}
+
+#Blank{
+	width:3em;
+	height:3em;
+	float:left;
+	}
+	
+#Bottom{
+	width:30em;
+	height:12em;
+	position:absolute;
+	bottom:0;
+	}
+
+#Left{
+	width:15em;
+	height:9em;
+	position:absolute;
+	bottom:12em;
+	}
+
+#I1{
+	width:3em;
+	height:12em;
+	position:absolute;
+	right:0;
+	bottom:12em;
+	}
+	
+#O1{
+	width:9em;
+	height:6em;
+	margin:auto;
+	position:Absolute;
+	top:15%;
+	left:40%;
+	}
+
+#L1{
+	height:9em;
+	width:6em;
+	position: left;
+	margin:auto;
+	}
+
+#Ghost{
+	width:9em;
+	height:6em;
+	margin:auto;
+	position:Absolute;
+	top:46.75%;
+	left:40%;
+	opacity: .2;
+	}
